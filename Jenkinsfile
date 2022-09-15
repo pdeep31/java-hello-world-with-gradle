@@ -2,7 +2,7 @@ pipeline {
      agent any
      tools {
         gradle "gradle"
-        java "java11"
+        jdk "java11"
     }
      stages {
          stage('Clean Workspace') {
