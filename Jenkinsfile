@@ -18,7 +18,7 @@ pipeline {
              steps {    
                   sh 'java -version'
                   sh 'chmod +x gradlew'
-                  sh './gradlew clean build'
+                  sh './gradlew clean build --debug'
              }              
          }
      }
